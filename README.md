@@ -5,6 +5,16 @@ The goal of this repo is to experiment :
 * convert these XML outputs into JSON in compliance with a JSON schema
 * send initial JSON and diff JSON to a Websocket client
 
+## Project structure
+
+resources/      The official and external sources of truth (dtd nmap spec)
+    tools/      Subfolder for external tools NOT TO BE MODIFIED for now
+output/
+    initial/    output for initial nmap JSON report
+    ndiff/      output for incremental nmap JSON report
+    xsd/        output for dtd2xsd
+    json-sc/    output for xsd2json and manual JSON schemas
+
 ## nmap script
 
 1) Make bash nmap script with XML output (including ndiff)
