@@ -7,6 +7,7 @@ The goal of this repo is to experiment :
 
 ## Project structure
 
+```
 resources/      The official and external sources of truth (dtd nmap spec)
     tools/      Subfolder for external tools NOT TO BE MODIFIED for now
 output/
@@ -14,6 +15,7 @@ output/
     ndiff/      output for incremental nmap JSON report
     xsd/        output for dtd2xsd
     json-sc/    output for xsd2json and manual JSON schemas
+```
 
 ## nmap script
 
