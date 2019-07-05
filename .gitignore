@@ -1,3 +1,4 @@
 *.swp
 scan-*
 diff-*
+resources/tools/node_modules/
